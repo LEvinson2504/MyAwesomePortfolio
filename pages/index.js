@@ -1,6 +1,7 @@
 import Head from "next/head";
 import TopNav from "../components/TopNav.tsx";
 import Intro from "../components/Intro.tsx";
+import SubIntro from "../components/SubIntro.tsx";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Intro />
+      <SubIntro />
     </div>
   );
 }
