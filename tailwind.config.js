@@ -13,6 +13,8 @@ module.exports = {
     },
     width: {
       600: "600px",
+      80: "80rem",
+      140: "140rem",
     },
   },
   variants: {},
