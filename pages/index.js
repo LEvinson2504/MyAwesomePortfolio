@@ -1,6 +1,6 @@
 import Head from "next/head";
-import TopNav from "../components/TopNav";
-import Intro from "../components/Intro";
+import TopNav from "../components/TopNav.tsx";
+import Intro from "../components/Intro.tsx";
 
 export default function Home() {
   return (
