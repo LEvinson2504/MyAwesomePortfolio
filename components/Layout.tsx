@@ -6,14 +6,15 @@ import Footer from "./Footer";
 // children with a header and a footer
 
 export default function Layout({ children }) {
-    return <div>
-        <TopNav />
-        <div className="container sm:min-h-screen sm:w-screen h-64">
-            <div className="bg-blue-100 -mt-20 ml-10 sm:min-h-screen h-screen sm:ml-40 sm:-mt-5">
-                <div>{children}</div>
-            </div>
+  return (
+    <div>
+      <TopNav />
+      <div className="container sm:min-h-screen sm:w-screen h-64">
+        <div className="bg-blue-100 -mt-20 ml-10 sm:min-h-screen h-screen sm:ml-40 sm:-mt-5">
+          <div>{children}</div>
         </div>
-        <Footer />
+      </div>
+      <Footer />
     </div>
-
+  );
 }
