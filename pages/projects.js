@@ -7,14 +7,13 @@ export default function Projects() {
     {
       title: "eMenu - contactless menus",
       desc:
-        "My final year project which doesnt show my potential but needed a grade.",
-      src: "https://via.placeholder.com/350",
+        "My final year project I did a while back using EJS and MongoDB Atlas, In process of improving further",
+      src: "images/portfolio-1.png",
     },
     {
       title: "fantasy-bet-football",
-      desc:
-        "My final year project which doesnt show my potential but needed a grade.",
-      src: "https://via.placeholder.com/350",
+      desc: "Hobby project started because fit my friends and my requirements",
+      src: "images/portfolio-2.png",
     },
   ];
   return (
