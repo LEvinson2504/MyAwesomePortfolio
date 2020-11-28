@@ -18,9 +18,11 @@ export default function Projects() {
   ];
   return (
     <Layout>
-      {projects.map((project, i) => (
-        <ProjectCard project={project} right={i % 2 === 0} />
-      ))}
+      <div className="flex flex-col lg:flex-row lg:justify-evenly items-center">
+        {projects.map((project, i) => (
+          <ProjectCard project={project} right={i % 2 === 0} />
+        ))}
+      </div>
     </Layout>
   );
 }
